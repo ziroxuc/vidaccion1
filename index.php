@@ -33,11 +33,11 @@
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
-							<li><a title="team" href="#about">Nosotros</a></li>
-							<li><a title="services" href="#services">Servicios</a></li>
-							<li><a title="works" href="#works">Nuestros Profesionales</a></li>
-							<li><a title="blog" href="#blog">Ubicación</a></li>
-							<li><a title="contact" href="#contact">Contacto</a></li>
+							<li onclick="window.location='#about';"><a title="team" href="#about">Nosotros</a></li>
+							<li onclick="window.location='#services';"><a title="services" href="#services">Servicios</a></li>
+							<li onclick="window.location='#works';"><a title="works" href="#works">Nuestros Profesionales</a></li>
+							<li onclick="window.location='#blog';"><a title="blog" href="#blog">Ubicación</a></li>
+							<li onclick="window.location='#contact';"><a title="contact" href="#contact">Contacto</a></li>
 
 						</ul>
 					</nav>
@@ -296,8 +296,8 @@
 						<!-- portfolio item -->
 						<div class="portfolio-item grid photography web">
 							<div class="portfolio">
-								<p class="superpuesto">Fonoudiologia</p>
-								<a href="profesionales/fonoudiologia.html">
+								<p class="superpuesto">Fonoaudiologia</p>
+								<a href="profesionales/fonoaudiologia.html">
 							<img src="img/works/4.png" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
