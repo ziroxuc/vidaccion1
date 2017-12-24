@@ -285,7 +285,7 @@ h2.pagetitle {
 }
 .navbar .brand a {
 	padding: 0;
-	color: #fff;
+	color: #6b8d00;
 	font-size: 1.75em;
 	margin-left: 0;
 	font-weight: 400;
@@ -472,12 +472,14 @@ section.inner {
 /* === section spacer === */
 
 section.spacer {
-	padding:90px 0 70px;
+	padding:10px 0 1px;
+	padding-top: 50px;
 	color:#fcfcfc;
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#6b8d00;
+	
 }
 
 .spacer.green,.section.green h4 {
@@ -1475,8 +1477,8 @@ i.icon-white {
 .btn-success {
   color: #ffffff;
   text-shadow: none;
-  background-color: #1bac91;
-  *background-color: #1bac91;
+  background-color: #6b8d00;
+  *background-color: #6b8d00;
   background-image: none;
   border-color: none;
   filter:none;
@@ -1724,4 +1726,16 @@ i.icon-white {
 	#contact-form input[type=submit] {
 		width: 100%;
 	}
+
+}
+
+.texto-justificar{
+	text-align: justify;
+}
+
+.icono-banner{
+	margin-bottom: 20px;
+}
+.color-titulo1{
+	color: #6b8d00;
 }
