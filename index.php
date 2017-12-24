@@ -373,7 +373,7 @@
 					<div class="cform" id="contact-form">
 						<div id="sendmessage">Su mensaje ha sido enviado, Gracias!</div>
 						<div id="errormessage"></div>
-						<form action="" method="post" role="form" class="contactForm">
+						<form action="phpmailer.php" method="post" role="form" class="contactForm">
 							<div class="row">
 								<div class="span6">
 									<div class="field your-name form-group">
@@ -394,12 +394,15 @@
 								</div>
 								<div class="span6">
 									<div class="field message form-group">
-										<textarea class="form-control" name="Mensaje" rows="5" data-rule="required" data-msg="Escriba algo para nosotros" placeholder="Mensaje"></textarea>
+										<textarea class="form-control" name="mensaje" rows="5" data-rule="required" data-msg="Escriba algo para nosotros" placeholder="Mensaje"></textarea>
 										<div class="validation"></div>
 									</div>
+									<input type="hidden" name="phpmailer">
 									<input type="submit" value="Enviar mensaje" class="btn btn-theme pull-left">
 								</div>
 							</div>
+							
+					
 						</form>
 					</div>
 				</div>
